@@ -34,6 +34,13 @@ nextflow run nf-core/viralrecon \
 -profile singularity,stjude \
 --input data/samplesheet/samplesheet.csv \
 --platform 'illumina' \
+--protocol metagenomic \
+--skip_assembly \
+--variant_caller lofreq \
+--min_allele_freq 0.02 \
+--min_base_quality 30 \
+--min_mapping_quality 30 \
+--deduplication true \
 --outdir results \
 --genome 'CY207731'
 ```
