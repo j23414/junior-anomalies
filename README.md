@@ -17,11 +17,11 @@ From an HPC
 
 ```bash
 nextflow run nf-core/fetchngs \
-   -profile singularity,stjude \
+   -profile stjude \
+   -c queue-limit.config \
    --nf_core_pipeline viralrecon \
    --input data/ids.csv \
-   --outdir data \
-   --download_method aspera \
+   --outdir illumina \
    -resume
 ```
 
