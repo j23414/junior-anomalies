@@ -42,6 +42,23 @@ nextflow run j23414/illumina-qc \
   -profile stjude
 ```
 
+3. Align against H3N2 and H1N1 references
+
+```bash
+echo "sample,R1,R2" > samplesheet.csv
+
+ls -1 ../01_QC/qc-results_fastp/fastp/*_R1.fastp.fastq.gz \
+| sed 's:illumina/fastq/::g' \
+| sed 's:_1.fastq.gz::g' \
+| awk 'OFS="," {print $1,"illumina/fastq/"$1"_R1.fastp.fastq.gz","illumina/fastq/"$1"_R2.fastp.fastq.gz "}' \
+>> samplesheet.csv
+
+nextflow run j23414/illumina-align \
+  --samplesheet samplesheet.csv \
+  --reference "data/references.fna" \
+  -profile stjude
+```
+
 2. Try viralrecon
 
 
