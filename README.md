@@ -59,6 +59,20 @@ nextflow run j23414/illumina-align \
   -profile stjude
 ```
 
+4. Get coverage report
+
+```bash
+cat align-results/samtools_coverage/*tophit* > all-top-coverage.tsv
+cat align-results/countreads/*_readcount.tsv > all-readcount.tsv
+
+# TODO: Run this as part of the alignment command
+wget https://raw.githubusercontent.com/j23414/illumina-align/refs/heads/main/bin/coverage_to_wide.py
+python coverage_to_wide.py \
+  --top-coverage all-top-coverage.tsv \
+  --readcount all-readcount.tsv \
+  --merged results-coverage.tsv
+```
+
 2. Try viralrecon
 
 
