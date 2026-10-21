@@ -25,6 +25,23 @@ nextflow run nf-core/fetchngs \
    -resume
 ```
 
+2. QC illumina data
+
+```bash
+echo "sample,R1,R2" | tr ',' '\t' > samplesheet.tsv
+
+ls -1 illumina/fastq/*_1.fastq.gz \
+| sed 's:illumina/fastq/::g' \
+| sed 's:_1.fastq.gz::g' \
+| awk 'OFS="\t" {print $1,"illumina/fastq/"$1"_1.fastq.gz","illumina/fastq/"$1"_2.fastq.gz"}' \
+>> samplesheet.tsv
+
+nextflow run j23414/illumina-qc \
+  --samplesheet samplesheet.tsv \
+  --trim_adaptors fastp \
+  -profile stjude
+```
+
 2. Try viralrecon
 
 
