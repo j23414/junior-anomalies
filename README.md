@@ -73,6 +73,26 @@ python coverage_to_wide.py \
   --merged results-coverage.tsv
 ```
 
+5. Generate consensus sequence
+
+```bash
+mkdir 03_Consensus; cd 03_Consensus
+ln -s ../02_Align/align-results/bwamem2_mem .
+ln -s ../02_Align/reference .
+
+echo "sample,bam,reference" > samplesheet.csv
+cat ../02_Align/results-coverage.tsv \
+| awk -F'\t' 'NR>1, OFS="," {print $1,"bwamem2_mem/"$1".bam",$4}' \
+>> samplesheet.csv
+# $4=HA, repeat for other segment columns, add to samplesheet
+
+nextflow run j23414/bam-consensus \
+  --samplesheet samplesheet.csv \
+  --reference reference/references.fna \
+  -profile stjude
+
+```
+
 2. Try viralrecon
 
 
