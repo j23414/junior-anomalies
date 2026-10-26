@@ -1,6 +1,6 @@
 # junior-anomalies
 
-Temporary repository, exploring a few minor variant pipelines
+Plumbing the depths of minor variants in public datasets.
 
 ## Notes
 
