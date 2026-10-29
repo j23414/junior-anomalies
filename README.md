@@ -90,7 +90,19 @@ nextflow run j23414/bam-consensus \
   --samplesheet samplesheet.csv \
   --reference reference/references.fna \
   -profile stjude
+```
 
+6. Subset to top-hit references per segment
+
+```
+ln -s ../02_Align/align-results/bwamem2_mem .
+cat ../02_Align/results-coverage.tsv |awk -F'\t' 'OFS="," {print $1,"bwamem2_mem/"$1".bam",$4";"$5";"$6";"$7";"$8";"$9";"$10";"$11}' > samplesheet.csv
+
+nextflow run bam-subset-reference/main.nf \
+  --samplesheet samplesheet.csv \
+  -profile stjude
+
+ls subset-results/processed_samplesheet.csv
 ```
 
 2. Try viralrecon
