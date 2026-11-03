@@ -45,33 +45,47 @@ nextflow run j23414/illumina-qc \
 3. Align against H3N2 and H1N1 references
 
 ```bash
-echo "sample,R1,R2" > samplesheet.csv
-
-ls -1 ../01_QC/qc-results_fastp/fastp/*_R1.fastp.fastq.gz \
-| sed 's:illumina/fastq/::g' \
-| sed 's:_1.fastq.gz::g' \
-| awk 'OFS="," {print $1,"illumina/fastq/"$1"_R1.fastp.fastq.gz","illumina/fastq/"$1"_R2.fastp.fastq.gz "}' \
->> samplesheet.csv
+ln -s ../01_QC/qc-results_fastp/fastp .
+cp ../01_QC/qc-results_fastp/processed_samplesheet.csv samplesheet.csv
 
 nextflow run j23414/illumina-align \
   --samplesheet samplesheet.csv \
   --reference "data/references.fna" \
+  --keep_multimapped \
+  -profile stjude
+
+ls align-results/results-coverage.tsv
+```
+
+4. Subset to top-hit references per segment
+
+```
+ln -s ../02_Align/align-results/bwamem2_mem .
+cp ../02_Align/align-results/processed_samplesheet.csv samplesheet.csv
+
+nextflow run j23414/bam-subset-reference \
+  --samplesheet samplesheet.csv \
+  -profile stjude
+
+ls subset-results/processed_samplesheet.csv
+```
+
+5. Call variants
+
+```
+ln -s ../04_Subset/subset-results/subset_bam .
+cp ../04_Subset/subset-results/processed_samplesheet.csv samplesheet.csv
+
+nextflow run j23414/bam-variants \
+  --samplesheet samplesheet.csv \
+  --reference_fasta data/reference.fasta \
+  --reference_gb data/reference.gb \
+  --depth 100000 \
+  --min_depth 100 \
   -profile stjude
 ```
 
-4. Get coverage report
-
-```bash
-cat align-results/samtools_coverage/*tophit* > all-top-coverage.tsv
-cat align-results/countreads/*_readcount.tsv > all-readcount.tsv
-
-# TODO: Run this as part of the alignment command
-wget https://raw.githubusercontent.com/j23414/illumina-align/refs/heads/main/bin/coverage_to_wide.py
-python coverage_to_wide.py \
-  --top-coverage all-top-coverage.tsv \
-  --readcount all-readcount.tsv \
-  --merged results-coverage.tsv
-```
+<!--
 
 5. Generate consensus sequence
 
@@ -91,19 +105,7 @@ nextflow run j23414/bam-consensus \
   --reference reference/references.fna \
   -profile stjude
 ```
-
-6. Subset to top-hit references per segment
-
-```
-ln -s ../02_Align/align-results/bwamem2_mem .
-cat ../02_Align/results-coverage.tsv |awk -F'\t' 'OFS="," {print $1,"bwamem2_mem/"$1".bam",$4";"$5";"$6";"$7";"$8";"$9";"$10";"$11}' > samplesheet.csv
-
-nextflow run bam-subset-reference/main.nf \
-  --samplesheet samplesheet.csv \
-  -profile stjude
-
-ls subset-results/processed_samplesheet.csv
-```
+-->
 
 2. Try viralrecon
 
