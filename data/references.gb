@@ -1,8 +1,8 @@
-LOCUS       CY121496                1732 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121496|H3N2|2010to2011|HA                1732 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/Perth/10/2010(H3N2)) hemagglutinin (HA) gene,
             complete cds.
-ACCESSION   CY121496
-VERSION     CY121496.1
+ACCESSION   CY121496|H3N2|2010to2011|HA
+VERSION     CY121496|H3N2|2010to2011|HA.1
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Perth/10/2010(H3N2))
   ORGANISM  Influenza A virus (A/Perth/10/2010(H3N2))
@@ -102,11 +102,11 @@ ORIGIN
      1681 aaaaaggcaa cattaggtgc aacatttgca tttgagtgca ttaattaaaa ac
 //
 
-LOCUS       CY121497                1003 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121497|H3N2|2010to2011|MP                1003 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/Perth/10/2010(H3N2)) matrix protein 2 (M2) and
             matrix protein 1 (M1) genes, complete cds.
-ACCESSION   CY121497
-VERSION     CY121497.1
+ACCESSION   CY121497|H3N2|2010to2011|MP
+VERSION     CY121497|H3N2|2010to2011|MP.1
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Perth/10/2010(H3N2))
   ORGANISM  Influenza A virus (A/Perth/10/2010(H3N2))
@@ -188,11 +188,11 @@ ORIGIN
       961 acgacagtca ttttgtcagc atagagttgg agtaaaaaac tac
 //
 
-LOCUS       CY121498                1443 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121498|H3N2|2010to2011|NA                1443 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/Perth/10/2010(H3N2)) neuraminidase (NA) gene,
             complete cds.
-ACCESSION   CY121498
-VERSION     CY121498.1
+ACCESSION   CY121498|H3N2|2010to2011|NA
+VERSION     CY121498|H3N2|2010to2011|NA.1
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Perth/10/2010(H3N2))
   ORGANISM  Influenza A virus (A/Perth/10/2010(H3N2))
@@ -277,11 +277,11 @@ ORIGIN
      1441 ctc
 //
 
-LOCUS       CY121499                1541 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121499|H3N2|2010to2011|NP                1541 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/Perth/10/2010(H3N2)) nucleocapsid protein (NP)
             gene, complete cds.
-ACCESSION   CY121499
-VERSION     CY121499.1
+ACCESSION   CY121499|H3N2|2010to2011|NP
+VERSION     CY121499|H3N2|2010to2011|NP.1
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Perth/10/2010(H3N2))
   ORGANISM  Influenza A virus (A/Perth/10/2010(H3N2))
@@ -367,11 +367,11 @@ ORIGIN
      1501 gagacaatgc agaagagtac gacaattaag gaaaaaatac c
 //
 
-LOCUS       CY121500                 865 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121500|H3N2|2010to2011|NS                 865 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/Perth/10/2010(H3N2)) nuclear export protein
             (NEP) and nonstructural protein 1 (NS1) genes, complete cds.
-ACCESSION   CY121500
-VERSION     CY121500.1
+ACCESSION   CY121500|H3N2|2010to2011|NS
+VERSION     CY121500|H3N2|2010to2011|NS.1
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Perth/10/2010(H3N2))
   ORGANISM  Influenza A virus (A/Perth/10/2010(H3N2))
@@ -455,11 +455,11 @@ ORIGIN
       841 cagcttattt aatgataaaa aacac
 //
 
-LOCUS       CY121501                2208 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121501|H3N2|2010to2011|PA                2208 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/Perth/10/2010(H3N2)) polymerase PA (PA) gene,
             complete cds.
-ACCESSION   CY121501
-VERSION     CY121501.1
+ACCESSION   CY121501|H3N2|2010to2011|PA
+VERSION     CY121501|H3N2|2010to2011|PA.1
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Perth/10/2010(H3N2))
   ORGANISM  Influenza A virus (A/Perth/10/2010(H3N2))
@@ -560,11 +560,11 @@ ORIGIN
      2161 taattatggc agtgctacta tttgttatcc gtactgtcca aaaaagta
 //
 
-LOCUS       CY121502                2316 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121502|H3N2|2010to2011|PB1                2316 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/Perth/10/2010(H3N2)) polymerase PB1 (PB1) and
             putative PB1-F2 protein (PB1-F2) genes, complete cds.
-ACCESSION   CY121502
-VERSION     CY121502.1
+ACCESSION   CY121502|H3N2|2010to2011|PB1
+VERSION     CY121502|H3N2|2010to2011|PB1.1
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Perth/10/2010(H3N2))
   ORGANISM  Influenza A virus (A/Perth/10/2010(H3N2))
@@ -677,11 +677,11 @@ ORIGIN
      2281 aaataatgaa tttagcttgt ccttcatgaa aaaatg
 //
 
-LOCUS       CY121503                2309 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121503|H3N2|2010to2011|PB2                2309 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/Perth/10/2010(H3N2)) polymerase PB2 (PB2)
             gene, complete cds.
-ACCESSION   CY121503
-VERSION     CY121503.1
+ACCESSION   CY121503|H3N2|2010to2011|PB2
+VERSION     CY121503|H3N2|2010to2011|PB2.1
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Perth/10/2010(H3N2))
   ORGANISM  Influenza A virus (A/Perth/10/2010(H3N2))
@@ -785,11 +785,11 @@ ORIGIN
      2281 ggccatcaat taatgctgaa tagtttaaa
 //
 
-LOCUS       KJ942680                1751 bp    cRNA    linear   VRL 13-JUL-2014
+LOCUS       KJ942680|H3N2|2012to2013|HA                1751 bp    cRNA    linear   VRL 13-JUL-2014
 DEFINITION  Influenza A virus (A/Victoria/361/2011(H3N2)) segment 4
             hemagglutinin (HA) gene, complete cds.
-ACCESSION   KJ942680
-VERSION     KJ942680.1
+ACCESSION   KJ942680|H3N2|2012to2013|HA
+VERSION     KJ942680|H3N2|2012to2013|HA.1
 DBLINK      BioProject: PRJNA205638
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Victoria/361/2011(H3N2))
@@ -810,7 +810,7 @@ REFERENCE   1  (bases 1 to 1751)
 COMMENT     This work was supported by the National Institute of Allergy and
             Infectious Diseases (NIAID), Genome Sequencing Centers for
             Infectious Diseases (GSCID) program.
-            GenBank Accession Numbers KJ942680-KJ942687 represent sequences
+            GenBank Accession Numbers KJ942680|H3N2|2012to2013|HA-KJ942687|H3N2|2012to2013|PB2 represent sequences
             from the 8 segments of Influenza A virus
             (A/Victoria/361/2011(H3N2)).
             
@@ -897,11 +897,11 @@ ORIGIN
      1741 taaaaacacc c
 //
 
-LOCUS       KJ942681                1016 bp    cRNA    linear   VRL 13-JUL-2014
+LOCUS       KJ942681|H3N2|2012to2013|MP                1016 bp    cRNA    linear   VRL 13-JUL-2014
 DEFINITION  Influenza A virus (A/Victoria/361/2011(H3N2)) segment 7 matrix
             protein 2 (M2) and matrix protein 1 (M1) genes, complete cds.
-ACCESSION   KJ942681
-VERSION     KJ942681.1
+ACCESSION   KJ942681|H3N2|2012to2013|MP
+VERSION     KJ942681|H3N2|2012to2013|MP.1
 DBLINK      BioProject: PRJNA205638
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Victoria/361/2011(H3N2))
@@ -922,7 +922,7 @@ REFERENCE   1  (bases 1 to 1016)
 COMMENT     This work was supported by the National Institute of Allergy and
             Infectious Diseases (NIAID), Genome Sequencing Centers for
             Infectious Diseases (GSCID) program.
-            GenBank Accession Numbers KJ942680-KJ942687 represent sequences
+            GenBank Accession Numbers KJ942680|H3N2|2012to2013|HA-KJ942687|H3N2|2012to2013|PB2 represent sequences
             from the 8 segments of Influenza A virus
             (A/Victoria/361/2011(H3N2)).
             
@@ -990,11 +990,11 @@ ORIGIN
       961 ctgtggatgc tgacgacagt cattttgtca gcatagagtt ggagtaaaaa actacc
 //
 
-LOCUS       KJ942682                1455 bp    cRNA    linear   VRL 13-JUL-2014
+LOCUS       KJ942682|H3N2|2012to2013|NA                1455 bp    cRNA    linear   VRL 13-JUL-2014
 DEFINITION  Influenza A virus (A/Victoria/361/2011(H3N2)) segment 6
             neuraminidase (NA) gene, complete cds.
-ACCESSION   KJ942682
-VERSION     KJ942682.1
+ACCESSION   KJ942682|H3N2|2012to2013|NA
+VERSION     KJ942682|H3N2|2012to2013|NA.1
 DBLINK      BioProject: PRJNA205638
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Victoria/361/2011(H3N2))
@@ -1015,7 +1015,7 @@ REFERENCE   1  (bases 1 to 1455)
 COMMENT     This work was supported by the National Institute of Allergy and
             Infectious Diseases (NIAID), Genome Sequencing Centers for
             Infectious Diseases (GSCID) program.
-            GenBank Accession Numbers KJ942680-KJ942687 represent sequences
+            GenBank Accession Numbers KJ942680|H3N2|2012to2013|HA-KJ942687|H3N2|2012to2013|PB2 represent sequences
             from the 8 segments of Influenza A virus
             (A/Victoria/361/2011(H3N2)).
             
@@ -1084,11 +1084,11 @@ ORIGIN
      1441 tttagaaaaa actcc
 //
 
-LOCUS       KJ942683                1556 bp    cRNA    linear   VRL 13-JUL-2014
+LOCUS       KJ942683|H3N2|2012to2013|NP                1556 bp    cRNA    linear   VRL 13-JUL-2014
 DEFINITION  Influenza A virus (A/Victoria/361/2011(H3N2)) segment 5
             nucleocapsid protein (NP) gene, complete cds.
-ACCESSION   KJ942683
-VERSION     KJ942683.1
+ACCESSION   KJ942683|H3N2|2012to2013|NP
+VERSION     KJ942683|H3N2|2012to2013|NP.1
 DBLINK      BioProject: PRJNA205638
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Victoria/361/2011(H3N2))
@@ -1109,7 +1109,7 @@ REFERENCE   1  (bases 1 to 1556)
 COMMENT     This work was supported by the National Institute of Allergy and
             Infectious Diseases (NIAID), Genome Sequencing Centers for
             Infectious Diseases (GSCID) program.
-            GenBank Accession Numbers KJ942680-KJ942687 represent sequences
+            GenBank Accession Numbers KJ942680|H3N2|2012to2013|HA-KJ942687|H3N2|2012to2013|PB2 represent sequences
             from the 8 segments of Influenza A virus
             (A/Victoria/361/2011(H3N2)).
             
@@ -1179,12 +1179,12 @@ ORIGIN
      1501 tcttatttct tcggagacaa tgcagaagag tacgacaatt aaggaaaaaa ataccc
 //
 
-LOCUS       KJ942684                 879 bp    cRNA    linear   VRL 13-JUL-2014
+LOCUS       KJ942684|H3N2|2012to2013|NS                 879 bp    cRNA    linear   VRL 13-JUL-2014
 DEFINITION  Influenza A virus (A/Victoria/361/2011(H3N2)) segment 8 nuclear
             export protein (NEP) and nonstructural protein 1 (NS1) genes,
             complete cds.
-ACCESSION   KJ942684
-VERSION     KJ942684.1
+ACCESSION   KJ942684|H3N2|2012to2013|NS
+VERSION     KJ942684|H3N2|2012to2013|NS.1
 DBLINK      BioProject: PRJNA205638
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Victoria/361/2011(H3N2))
@@ -1205,7 +1205,7 @@ REFERENCE   1  (bases 1 to 879)
 COMMENT     This work was supported by the National Institute of Allergy and
             Infectious Diseases (NIAID), Genome Sequencing Centers for
             Infectious Diseases (GSCID) program.
-            GenBank Accession Numbers KJ942680-KJ942687 represent sequences
+            GenBank Accession Numbers KJ942680|H3N2|2012to2013|HA-KJ942687|H3N2|2012to2013|PB2 represent sequences
             from the 8 segments of Influenza A virus
             (A/Victoria/361/2011(H3N2)).
             
@@ -1274,11 +1274,11 @@ ORIGIN
       841 actttctcat ttcagcttat ttaatgataa aaaacaccc
 //
 
-LOCUS       KJ942685                2219 bp    cRNA    linear   VRL 13-JUL-2014
+LOCUS       KJ942685|H3N2|2012to2013|PA                2219 bp    cRNA    linear   VRL 13-JUL-2014
 DEFINITION  Influenza A virus (A/Victoria/361/2011(H3N2)) segment 3 polymerase
             PA (PA) and PA-X protein (PA-X) genes, complete cds.
-ACCESSION   KJ942685
-VERSION     KJ942685.1
+ACCESSION   KJ942685|H3N2|2012to2013|PA
+VERSION     KJ942685|H3N2|2012to2013|PA.1
 DBLINK      BioProject: PRJNA205638
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Victoria/361/2011(H3N2))
@@ -1299,7 +1299,7 @@ REFERENCE   1  (bases 1 to 2219)
 COMMENT     This work was supported by the National Institute of Allergy and
             Infectious Diseases (NIAID), Genome Sequencing Centers for
             Infectious Diseases (GSCID) program.
-            GenBank Accession Numbers KJ942680-KJ942687 represent sequences
+            GenBank Accession Numbers KJ942680|H3N2|2012to2013|HA-KJ942687|H3N2|2012to2013|PB2 represent sequences
             from the 8 segments of Influenza A virus
             (A/Victoria/361/2011(H3N2)).
             
@@ -1399,11 +1399,11 @@ ORIGIN
      2161 gcattaaaat agttatggca gtgctgctat ttgttatccg tactgtccaa aaaagtacc
 //
 
-LOCUS       KJ942686                2333 bp    cRNA    linear   VRL 13-JUL-2014
+LOCUS       KJ942686|H3N2|2012to2013|PB1                2333 bp    cRNA    linear   VRL 13-JUL-2014
 DEFINITION  Influenza A virus (A/Victoria/361/2011(H3N2)) segment 2 polymerase
             PB1 (PB1) and PB1-F2 protein (PB1-F2) genes, complete cds.
-ACCESSION   KJ942686
-VERSION     KJ942686.1
+ACCESSION   KJ942686|H3N2|2012to2013|PB1
+VERSION     KJ942686|H3N2|2012to2013|PB1.1
 DBLINK      BioProject: PRJNA205638
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Victoria/361/2011(H3N2))
@@ -1424,7 +1424,7 @@ REFERENCE   1  (bases 1 to 2333)
 COMMENT     This work was supported by the National Institute of Allergy and
             Infectious Diseases (NIAID), Genome Sequencing Centers for
             Infectious Diseases (GSCID) program.
-            GenBank Accession Numbers KJ942680-KJ942687 represent sequences
+            GenBank Accession Numbers KJ942680|H3N2|2012to2013|HA-KJ942687|H3N2|2012to2013|PB2 represent sequences
             from the 8 segments of Influenza A virus
             (A/Victoria/361/2011(H3N2)).
             
@@ -1523,11 +1523,11 @@ ORIGIN
      2281 gcaaaaataa tgaatttagc ttgtccttca tgaaaaaatg ccttgtttct act
 //
 
-LOCUS       KJ942687                2340 bp    cRNA    linear   VRL 13-JUL-2014
+LOCUS       KJ942687|H3N2|2012to2013|PB2                2340 bp    cRNA    linear   VRL 13-JUL-2014
 DEFINITION  Influenza A virus (A/Victoria/361/2011(H3N2)) segment 1 polymerase
             PB2 (PB2) gene, complete cds.
-ACCESSION   KJ942687
-VERSION     KJ942687.1
+ACCESSION   KJ942687|H3N2|2012to2013|PB2
+VERSION     KJ942687|H3N2|2012to2013|PB2.1
 DBLINK      BioProject: PRJNA205638
 KEYWORDS    .
 SOURCE      Influenza A virus (A/Victoria/361/2011(H3N2))
@@ -1548,7 +1548,7 @@ REFERENCE   1  (bases 1 to 2340)
 COMMENT     This work was supported by the National Institute of Allergy and
             Infectious Diseases (NIAID), Genome Sequencing Centers for
             Infectious Diseases (GSCID) program.
-            GenBank Accession Numbers KJ942680-KJ942687 represent sequences
+            GenBank Accession Numbers KJ942680|H3N2|2012to2013|HA-KJ942687|H3N2|2012to2013|PB2 represent sequences
             from the 8 segments of Influenza A virus
             (A/Victoria/361/2011(H3N2)).
             
@@ -1636,11 +1636,11 @@ ORIGIN
      2281 aaaagaattc ggatggccat caattaatgc tgaatagttt aaaaacgacc ttgtttctac
 //
 
-LOCUS       CY207731                1737 bp    cRNA    linear   VRL 10-OCT-2016
+LOCUS       CY207731|H3N2|2014to2015|HA                1737 bp    cRNA    linear   VRL 10-OCT-2016
 DEFINITION  Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
             hemagglutinin (HA) gene, complete cds.
-ACCESSION   CY207731
-VERSION     CY207731.1
+ACCESSION   CY207731|H3N2|2014to2015|HA
+VERSION     CY207731|H3N2|2014to2015|HA.1
 DBLINK      BioProject: PRJNA183620
 KEYWORDS    .
 SOURCE      Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
@@ -1739,11 +1739,11 @@ ORIGIN
      1681 gccaaaaggg caacattagg tgcaacattt gcatttgagt gcattaatta aaaacac
 //
 
-LOCUS       CY207732                 993 bp    cRNA    linear   VRL 10-OCT-2016
+LOCUS       CY207732|H3N2|2014to2015|MP                 993 bp    cRNA    linear   VRL 10-OCT-2016
 DEFINITION  Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2)) matrix
             protein 2 (M2) and matrix protein 1 (M1) genes, complete cds.
-ACCESSION   CY207732
-VERSION     CY207732.1
+ACCESSION   CY207732|H3N2|2014to2015|MP
+VERSION     CY207732|H3N2|2014to2015|MP.1
 DBLINK      BioProject: PRJNA183620
 KEYWORDS    .
 SOURCE      Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
@@ -1824,11 +1824,11 @@ ORIGIN
       961 acagtcattt tgtcagcata gagttggagt aaa
 //
 
-LOCUS       CY207733                1410 bp    cRNA    linear   VRL 10-OCT-2016
+LOCUS       CY207733|H3N2|2014to2015|NA                1410 bp    cRNA    linear   VRL 10-OCT-2016
 DEFINITION  Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
             neuraminidase (NA) gene, complete cds.
-ACCESSION   CY207733
-VERSION     CY207733.1
+ACCESSION   CY207733|H3N2|2014to2015|NA
+VERSION     CY207733|H3N2|2014to2015|NA.1
 DBLINK      BioProject: PRJNA183620
 KEYWORDS    .
 SOURCE      Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
@@ -1911,11 +1911,11 @@ ORIGIN
      1381 ggggcggacc tcaatctcat gcctatataa
 //
 
-LOCUS       CY207734                1538 bp    cRNA    linear   VRL 10-OCT-2016
+LOCUS       CY207734|H3N2|2014to2015|NP                1538 bp    cRNA    linear   VRL 10-OCT-2016
 DEFINITION  Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
             nucleocapsid protein (NP) gene, complete cds.
-ACCESSION   CY207734
-VERSION     CY207734.1
+ACCESSION   CY207734|H3N2|2014to2015|NP
+VERSION     CY207734|H3N2|2014to2015|NP.1
 DBLINK      BioProject: PRJNA183620
 KEYWORDS    .
 SOURCE      Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
@@ -2000,12 +2000,12 @@ ORIGIN
      1501 gacaatgcag aagagtacga caattaagga aaaaatac
 //
 
-LOCUS       CY207735                 860 bp    cRNA    linear   VRL 10-OCT-2016
+LOCUS       CY207735|H3N2|2014to2015|NS                 860 bp    cRNA    linear   VRL 10-OCT-2016
 DEFINITION  Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2)) nuclear
             export protein (NEP) and nonstructural protein 1 (NS1) genes,
             complete cds.
-ACCESSION   CY207735
-VERSION     CY207735.1
+ACCESSION   CY207735|H3N2|2014to2015|NS
+VERSION     CY207735|H3N2|2014to2015|NS.1
 DBLINK      BioProject: PRJNA183620
 KEYWORDS    .
 SOURCE      Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
@@ -2088,11 +2088,11 @@ ORIGIN
       841 cttatttaat gataaaaaac
 //
 
-LOCUS       CY207736                2192 bp    cRNA    linear   VRL 10-OCT-2016
+LOCUS       CY207736|H3N2|2014to2015|PA                2192 bp    cRNA    linear   VRL 10-OCT-2016
 DEFINITION  Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2)) polymerase
             PA (PA) and PA-X protein (PA-X) genes, complete cds.
-ACCESSION   CY207736
-VERSION     CY207736.1
+ACCESSION   CY207736|H3N2|2014to2015|PA
+VERSION     CY207736|H3N2|2014to2015|PA.1
 DBLINK      BioProject: PRJNA183620
 KEYWORDS    .
 SOURCE      Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
@@ -2205,11 +2205,11 @@ ORIGIN
      2161 gttatagcag tgctactatt tgttatccgt ac
 //
 
-LOCUS       CY207737                2309 bp    cRNA    linear   VRL 10-OCT-2016
+LOCUS       CY207737|H3N2|2014to2015|PB1                2309 bp    cRNA    linear   VRL 10-OCT-2016
 DEFINITION  Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2)) polymerase
             PB1 (PB1) and PB1-F2 protein (PB1-F2) genes, complete cds.
-ACCESSION   CY207737
-VERSION     CY207737.1
+ACCESSION   CY207737|H3N2|2014to2015|PB1
+VERSION     CY207737|H3N2|2014to2015|PB1.1
 DBLINK      BioProject: PRJNA183620
 KEYWORDS    .
 SOURCE      Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
@@ -2321,11 +2321,11 @@ ORIGIN
      2281 atgaatttag cttgtccttc atgaaaaaa
 //
 
-LOCUS       CY207738                2310 bp    cRNA    linear   VRL 10-OCT-2016
+LOCUS       CY207738|H3N2|2014to2015|PB2                2310 bp    cRNA    linear   VRL 10-OCT-2016
 DEFINITION  Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2)) polymerase
             PB2 (PB2) gene, complete cds.
-ACCESSION   CY207738
-VERSION     CY207738.1
+ACCESSION   CY207738|H3N2|2014to2015|PB2
+VERSION     CY207738|H3N2|2014to2015|PB2.1
 DBLINK      BioProject: PRJNA183620
 KEYWORDS    .
 SOURCE      Influenza A virus (A/New York/WC-LVD-15-031/2015(H3N2))
@@ -2428,11 +2428,11 @@ ORIGIN
      2281 gccatcaatt aatactgaat agtttaaaaa
 //
 
-LOCUS       CY121680                1752 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121680|H1N1|2009pdm|HA                1752 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) hemagglutinin (HA)
             gene, complete cds.
-ACCESSION   CY121680
-VERSION     CY121680.1
+ACCESSION   CY121680|H1N1|2009pdm|HA
+VERSION     CY121680|H1N1|2009pdm|HA.1
 DBLINK      BioProject: PRJNA37813
 KEYWORDS    .
 SOURCE      Influenza A virus (A/California/07/2009(H1N1))
@@ -2534,11 +2534,11 @@ ORIGIN
      1741 tgagaaaaac ac
 //
 
-LOCUS       CY121681                1002 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121681|H1N1|2009pdm|MP                1002 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) matrix protein 2
             (M2) and matrix protein 1 (M1) genes, complete cds.
-ACCESSION   CY121681
-VERSION     CY121681.1
+ACCESSION   CY121681|H1N1|2009pdm|MP
+VERSION     CY121681|H1N1|2009pdm|MP.1
 DBLINK      BioProject: PRJNA37813
 KEYWORDS    .
 SOURCE      Influenza A virus (A/California/07/2009(H1N1))
@@ -2621,11 +2621,11 @@ ORIGIN
       961 cgatggtcat tttgtcaaca tagagctaga gtaaaaaact ac
 //
 
-LOCUS       CY121682                1432 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121682|H1N1|2009pdm|NA                1432 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) neuraminidase (NA)
             gene, complete cds.
-ACCESSION   CY121682
-VERSION     CY121682.1
+ACCESSION   CY121682|H1N1|2009pdm|NA
+VERSION     CY121682|H1N1|2009pdm|NA.1
 DBLINK      BioProject: PRJNA37813
 KEYWORDS    .
 SOURCE      Influenza A virus (A/California/07/2009(H1N1))
@@ -2710,11 +2710,11 @@ ORIGIN
      1381 cagacggtgc tgagttgcca tttaccattg acaagtaatt tgttcaaaaa ac
 //
 
-LOCUS       CY121683                1541 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121683|H1N1|2009pdm|NP                1541 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) nucleocapsid protein
             (NP) gene, complete cds.
-ACCESSION   CY121683
-VERSION     CY121683.1
+ACCESSION   CY121683|H1N1|2009pdm|NP
+VERSION     CY121683|H1N1|2009pdm|NP.1
 DBLINK      BioProject: PRJNA37813
 KEYWORDS    .
 SOURCE      Influenza A virus (A/California/07/2009(H1N1))
@@ -2801,12 +2801,12 @@ ORIGIN
      1501 ggagacaatg cagaggagta tgacagttga ggaaaaatac c
 //
 
-LOCUS       CY121684                 865 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121684|H1N1|2009pdm|NS                 865 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) nuclear export
             protein (NEP) and nonstructural protein 1 (NS1) genes, complete
             cds.
-ACCESSION   CY121684
-VERSION     CY121684.1
+ACCESSION   CY121684|H1N1|2009pdm|NS
+VERSION     CY121684|H1N1|2009pdm|NS.1
 DBLINK      BioProject: PRJNA37813
 KEYWORDS    .
 SOURCE      Influenza A virus (A/California/07/2009(H1N1))
@@ -2891,11 +2891,11 @@ ORIGIN
       841 cagcttattt aatgataaaa aaccc
 //
 
-LOCUS       CY121685                2192 bp    cRNA    linear   VRL 08-AUG-2012
+LOCUS       CY121685|H1N1|2009pdm|PA                2192 bp    cRNA    linear   VRL 08-AUG-2012
 DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) polymerase PA (PA)
             gene, complete cds.
-ACCESSION   CY121685
-VERSION     CY121685.1
+ACCESSION   CY121685|H1N1|2009pdm|PA
+VERSION     CY121685|H1N1|2009pdm|PA.1
 DBLINK      BioProject: PRJNA37813
 KEYWORDS    .
 SOURCE      Influenza A virus (A/California/07/2009(H1N1))
@@ -3010,11 +3010,11 @@ ORIGIN
      2161 gcaatgctac tatttgctat ccatactgtc ca
 //
 
-LOCUS       CY121686                2317 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121686|H1N1|2009pdm|PB1                2317 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) polymerase PB1 (PB1)
             gene, complete cds; and PB1-F2 gene, complete sequence.
-ACCESSION   CY121686
-VERSION     CY121686.1
+ACCESSION   CY121686|H1N1|2009pdm|PB1
+VERSION     CY121686|H1N1|2009pdm|PB1.1
 DBLINK      BioProject: PRJNA37813
 KEYWORDS    .
 SOURCE      Influenza A virus (A/California/07/2009(H1N1))
@@ -3124,11 +3124,11 @@ ORIGIN
      2281 aaataatgaa tttaacttgt ccttcatgaa aaaatgc
 //
 
-LOCUS       CY121687                2316 bp    cRNA    linear   VRL 20-JUN-2012
+LOCUS       CY121687|H1N1|2009pdm|PB2                2316 bp    cRNA    linear   VRL 20-JUN-2012
 DEFINITION  Influenza A virus (A/California/07/2009(H1N1)) polymerase PB2 (PB2)
             gene, complete cds.
-ACCESSION   CY121687
-VERSION     CY121687.1
+ACCESSION   CY121687|H1N1|2009pdm|PB2
+VERSION     CY121687|H1N1|2009pdm|PB2.1
 DBLINK      BioProject: PRJNA37813
 KEYWORDS    .
 SOURCE      Influenza A virus (A/California/07/2009(H1N1))
