@@ -5,7 +5,9 @@ Plumbing the depths of minor variants in public datasets.
 ## Notes
 
 * Pipeline Option: https://nf-co.re/viralrecon/2.6.0/docs/usage/
-* Pipeline or data option: [McCrone et al, 2018](https://elifesciences.org/articles/35962) - flu focus, pull dataset with BioProject PRJNA412631
+* Pipeline or data option:
+  * [McCrone et al, 2016](https://doi.org/10.1128/jvi.00667-16) - flu focus, known mixtures, test quality of variant calling, pull dataset with BioProject PRJNA317621
+  * [McCrone et al, 2018](https://elifesciences.org/articles/35962) - flu focus, household study pull dataset with BioProject PRJNA412631
 * [Xue et al, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6097882/) - glance and see if there are ways to mitigate limitations
 * [Akande et al, 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12282516/) - example paper using viralrecon 
 
