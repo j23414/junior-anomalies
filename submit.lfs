@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#BSUB -n 2
+#BSUB -o out.%J
+#BSUB -e err.%J
+#BSUB -J PULL
+#BSUB -N
+###BSUB -u SOMEONE@SOMEWHERE.OUT.THERE
+
+# Please do not remove this line
+source /etc/bashrc.modules
+
+# Load Nextflow dependencies
+#source /home/jchang99/.bashrc
+#conda activate nf-env
+
+nextflow run nf-core/fetchngs \
+   -profile stjude \
+   -c queue-limit.config \
+   --nf_core_pipeline viralrecon \
+   --input data/mccrone_2016.csv \
+   --outdir illumina
